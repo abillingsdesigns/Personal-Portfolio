@@ -1,0 +1,112 @@
+body {
+    font-family: "Open Sans";
+cursor: url(Assets/ChromeStar.pn), auto;
+} 
+.testing:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+.testing:active {
+    cursor:pointer;
+    background-color:lightpink;
+}
+.testing { 
+    color: rgb(255, 136, 0);
+    background-color: rgb(206, 221, 67);
+    font-size: 20px;
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    padding: 8px 16px;
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 4px;
+    margin: 32px;
+    font-family: "Valley Sans";
+}
+.logo-style-small {
+    max-width: 5%;
+    height: auto;
+}
+.title-style {
+    font-family: "Montserrat";
+    font-size: 3rem;
+}
+.Blue {
+    color: rgb(44, 168, 235);
+}
+.NavBar {
+    color: rgb(44, 168, 235);
+    text-decoration: none;
+}
+.NavBar:hover {
+    color: rgb(236, 177, 204);
+}
+.YG {
+    color: rgb(230, 222, 75);
+}
+.hero {
+    max-width: 100%;
+    height: auto;
+}
+.hero-statement{
+font-family: "Montserrat";
+font-size: 75px;
+color: rgb(236, 108, 17);
+}
+.Header-1 {
+    font-family:"Montserrat";
+    font-size: 50px;
+    color: rgb(236, 108, 17);
+    background-color: rgb(236, 177, 204);
+}
+.Header-2 {
+    font-family:"Montserrat";
+    font-size: 50px;
+    color: rgb(236, 177, 204);
+    background-color: rgb(236, 108, 17);
+}
+.body-text {
+    font-size: 24px;
+    color: rgb(247, 242, 213)
+}
+.bgpink {
+    background-color: rgb(236, 177, 204);
+}
+.bgorange {
+    background-color: rgb(236, 108, 17)
+}
+.contact {
+    font-size: 3rem;
+    color: rgb(236, 177, 204);
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+.CTA {
+    font-size: 50px;
+    font-family:"Montserrat";
+    color: rgb(247, 242, 213);
+}
+.quote {
+    font-size: 75px;
+    color: rgb(230, 222, 75);
+    font-family:"Open Sans";
+}
+.logo-style-large {
+    max-width: 12%;
+    height: auto;
+}
+.socials {
+    max-width: 5%;
+    height: auto;
+}
+.fineprint {
+    font-size: 12px;
+    color: rgb(44, 168, 235)
+}
+.image1 {
+    max-width: 25%;
+    height:auto;
+}
