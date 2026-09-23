@@ -44,6 +44,14 @@ cursor: url(Assets/ChromeStar.pn), auto;
 .NavBar:hover {
     color: rgb(236, 177, 204);
 }
+.NavBar:active {
+ color: rgb(236, 108, 17);
+}
+.CurrentPage {
+    color: rgb(236, 177, 204);
+    text-decoration: none;
+}
+
 .YG {
     color: rgb(230, 222, 75);
 }
@@ -55,6 +63,7 @@ cursor: url(Assets/ChromeStar.pn), auto;
 font-family: "Montserrat";
 font-size: 75px;
 color: rgb(236, 108, 17);
+text-align: center;
 }
 .Header-1 {
     font-family:"Montserrat";
@@ -83,16 +92,19 @@ color: rgb(236, 108, 17);
     color: rgb(236, 177, 204);
     font-family: "Open Sans";
     text-decoration: none;
+    text-align: center;
 }
 .CTA {
     font-size: 50px;
     font-family:"Montserrat";
     color: rgb(247, 242, 213);
+    text-align: right;
 }
 .quote {
     font-size: 75px;
     color: rgb(230, 222, 75);
     font-family:"Open Sans";
+    text-align: center;
 }
 .logo-style-large {
     max-width: 12%;
