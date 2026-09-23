@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans";
 cursor: url(Assets/ChromeStar.pn), auto;
+background: radial-gradient(ellipse at center,#ffe5e5, #ffe0da, #d7ff89)
 } 
 .testing:hover {
     cursor: pointer;
@@ -33,27 +34,29 @@ cursor: url(Assets/ChromeStar.pn), auto;
 .title-style {
     font-family: "Montserrat";
     font-size: 3rem;
+    color:#f26a24
 }
 .Blue {
     color: rgb(44, 168, 235);
 }
 .NavBar {
-    color: rgb(44, 168, 235);
+    color: #f26a24;
     text-decoration: none;
 }
 .NavBar:hover {
-    color: rgb(236, 177, 204);
+    color: #ffb6da;
 }
 .NavBar:active {
  color: rgb(236, 108, 17);
 }
 .CurrentPage {
-    color: rgb(236, 177, 204);
+    color: #ffb6da;
     text-decoration: none;
 }
 
-.YG {
-    color: rgb(230, 222, 75);
+.pink {
+    color: #d7ff89;
+    background-color: #f26a24;
 }
 .hero {
     max-width: 100%;
@@ -69,12 +72,12 @@ text-align: center;
     font-family:"Montserrat";
     font-size: 50px;
     color: rgb(236, 108, 17);
-    background-color: rgb(236, 177, 204);
+    background-color: #ffb6da;
 }
 .Header-2 {
     font-family:"Montserrat";
     font-size: 50px;
-    color: rgb(236, 177, 204);
+    color: #ffb6da;
     background-color: rgb(236, 108, 17);
 }
 .body-text {
@@ -82,14 +85,14 @@ text-align: center;
     color: rgb(247, 242, 213)
 }
 .bgpink {
-    background-color: rgb(236, 177, 204);
+    background-color: #ffb6da;
 }
 .bgorange {
     background-color: rgb(236, 108, 17)
 }
 .contact {
     font-size: 3rem;
-    color: rgb(236, 177, 204);
+    color: #ffb6da;
     font-family: "Open Sans";
     text-decoration: none;
     text-align: center;
@@ -102,7 +105,7 @@ text-align: center;
 }
 .quote {
     font-size: 75px;
-    color: rgb(230, 222, 75);
+    color: #f26a24;
     font-family:"Open Sans";
     text-align: center;
 }
@@ -116,7 +119,7 @@ text-align: center;
 }
 .fineprint {
     font-size: 12px;
-    color: rgb(44, 168, 235)
+    color: #f26a24
 }
 .image1 {
     max-width: 25%;
