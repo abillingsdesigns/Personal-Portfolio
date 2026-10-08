@@ -1,8 +1,17 @@
 body {
     font-family: "Open Sans";
 cursor: url(Assets/ChromeStar.pn), auto;
-background: radial-gradient(ellipse at center,#ffe5e5, #ffe0da, #d7ff89)
+background: radial-gradient(ellipse at center,#ffe5e5, #ffe0da, #d7ff89);
+display: flex;
+flex-direction: column;
 } 
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4rem;
+}
 .testing:hover {
     cursor: pointer;
     background-color: yellow;
@@ -28,12 +37,12 @@ background: radial-gradient(ellipse at center,#ffe5e5, #ffe0da, #d7ff89)
     font-family: "Valley Sans";
 }
 .logo-style-small {
-    max-width: 5%;
+    max-width: 82px;
     height: auto;
 }
 .title-style {
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 2rem;
     color:#f26a24
 }
 .Blue {
@@ -49,11 +58,21 @@ background: radial-gradient(ellipse at center,#ffe5e5, #ffe0da, #d7ff89)
 .NavBar:active {
  color: rgb(236, 108, 17);
 }
+.NavBar2 {
+    color: #ffb6da;
+    text-decoration: none;
+}
+.NavBar2:hover {
+    color: rgb(247, 242, 213);
+}
 .CurrentPage {
     color: #ffb6da;
     text-decoration: none;
 }
-
+.Current2 {
+    color:rgb(247, 242, 213);
+    text-decoration: none;
+}
 .pink {
     color: #d7ff89;
     background-color: #f26a24;
@@ -73,16 +92,25 @@ text-align: center;
     font-size: 50px;
     color: rgb(236, 108, 17);
     background-color: #ffb6da;
+    padding:0px 50px 0px 40px;
 }
 .Header-2 {
     font-family:"Montserrat";
     font-size: 50px;
     color: #ffb6da;
     background-color: rgb(236, 108, 17);
+    padding:0px 50px 0px 40px;
 }
 .body-text {
     font-size: 24px;
-    color: rgb(247, 242, 213)
+    color: rgb(247, 242, 213);
+    padding: 0px 40px 20px 40px;
+}
+.pink {
+    color:#ffb6da;
+}
+.orange {
+    color:#f26a24
 }
 .bgpink {
     background-color: #ffb6da;
@@ -96,12 +124,31 @@ text-align: center;
     font-family: "Open Sans";
     text-decoration: none;
     text-align: center;
+    background-color: rgb(247, 242, 213);
+    border-radius: 20px;
+    padding: 10px 15px 10px 10px;
+    margin: 0px 0px 0px 40px;
+}
+.author {
+    font-size: 3rem;
+    color: #ffb6da;
+    font-family: "Open Sans";
+    text-decoration: none;
+    text-align: right;
+    background: rgb(247, 242, 213);
+    border-radius: 20px;
+    padding: 10px 15px 10px 10px;
+    margin: 48px 100px 48px 1400px;
+}
+.contact:hover {
+    color: #f26a24;
 }
 .CTA {
     font-size: 50px;
     font-family:"Montserrat";
     color: rgb(247, 242, 213);
     text-align: right;
+    padding: 100px 50px 200px 0px;
 }
 .quote {
     font-size: 75px;
@@ -110,18 +157,118 @@ text-align: center;
     text-align: center;
 }
 .logo-style-large {
-    max-width: 12%;
+    max-width: 220px;
     height: auto;
+    margin-top: 140px;
+}
+.logo-style-large2 {
+    max-width: 220px;
+    height: auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.lsl-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .socials {
     max-width: 5%;
     height: auto;
 }
+.socialsflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 50px 0px 50px;
+}
+.socialimage {
+    width: 100%;
+}
 .fineprint {
     font-size: 12px;
-    color: #f26a24
+    color: #f26a24;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+.sociallinks {
+    font-size: 3rem;
+    color: #ffb6da;
+    font-family: "Open Sans";
+    text-align: center;
+    text-decoration: none;
+}
+.sociallinks:hover {
+    color:#f26a24;
 }
 .image1 {
     max-width: 25%;
     height:auto;
+}
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.homecolumn {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 100%;
+}
+@media screen and (min-width:320px)
+{
+    .columns{
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+    }
+    .homecolumn {
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        width: 50%;
+        height: 100%;
+    }
+}
+.nameandlogo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.nbflex {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 40px;
+}
+.nb2flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: #f26a24;
+}
+.minheight {
+    height: fit-content;
+}
+.heroimage {
+    background-image:url("./assets/palmcropped.jpg");
+    background-repeat: no-repeat;
+}
+.imagetwo {
+    background-image:url("./assets/GradientFloral.jpg");
+    background-repeat: no-repeat;
+}
+.quotebg {
+    background-color: #ffb6da;
 }
