@@ -1,9 +1,11 @@
 body {
-    font-family: "Open Sans";
-cursor: url(Assets/ChromeStar.pn), auto;
-background: radial-gradient(ellipse at center,#ffe5e5, #ffe0da, #d7ff89);
+   font-family: "pacaembu", sans-serif;
+font-weight: 300;
+font-style: normal;
+cursor: url(assets/ChromeStar.pn), auto;
 display: flex;
 flex-direction: column;
+margin: 0px;
 } 
 .header {
     display:flex;
@@ -49,11 +51,11 @@ flex-direction: column;
     color: rgb(44, 168, 235);
 }
 .NavBar {
-    color: #f26a24;
+    color: #ffb6da;
     text-decoration: none;
 }
 .NavBar:hover {
-    color: #ffb6da;
+    color: #f7f2d5;
 }
 .NavBar:active {
  color: rgb(236, 108, 17);
@@ -66,7 +68,7 @@ flex-direction: column;
     color: rgb(247, 242, 213);
 }
 .CurrentPage {
-    color: #ffb6da;
+    color: #f7f2d5;
     text-decoration: none;
 }
 .Current2 {
@@ -159,7 +161,6 @@ text-align: center;
 .logo-style-large {
     max-width: 220px;
     height: auto;
-    margin-top: 140px;
 }
 .logo-style-large2 {
     max-width: 220px;
@@ -260,6 +261,8 @@ text-align: center;
 }
 .minheight {
     height: fit-content;
+    width: 200px;
+    text-align: center;
 }
 .heroimage {
     background-image:url("./assets/palmcropped.jpg");
@@ -271,4 +274,20 @@ text-align: center;
 }
 .quotebg {
     background-color: #ffb6da;
+}
+.lrgtitle {
+    font-family: "beatle", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 377px;
+white-space: nowrap;
+overflow: hidden;
+margin: -65px 0px -65px -137px;
+color: rgba(44, 168, 235, .73);
+display: flex;
+justify-content: flex-start;
+}
+.bluesky {
+    background-image: url("assets/BlueSky.jpg");
+background-repeat: no-repeat;
 }
